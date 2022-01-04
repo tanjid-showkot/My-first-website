@@ -1,28 +1,34 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0%;
+    margin:0%;
     
 }
 h1{
     font-size: 50px;
+    
 }
-#name{
+h2{
+    margin: 0%;
+    font-size: 40px;
+}
+.name{
     color:orange;
 }
-section{
+.flexible{
     display: flex;
+    margin-bottom: 150px;
 }
 .half{
-    width: 60%;
-    padding: 5%;
+    width: 50%;
+    padding: 2%;
 }
 .half img{
-    width: 90%;
+    width: 80%;
 
 }
 .button{
     text-decoration: none;
-    background-image: linear-gradient(45deg,orange, tomato);
+    background-image: linear-gradient(45deg,salmon, tomato);
     padding: 10px 40px;
     color: white;
     font-weight: 700;
@@ -40,4 +46,32 @@ section{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.last{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100px;
+}
+.shadow{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 50px gray
+    
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
